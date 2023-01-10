@@ -1,0 +1,8 @@
+[build] 
+  publish = "www"
+  command = "echo No build for this little demo site"
+
+[dev] 
+  publish = "www"
+  command = "echo No build for this little demo site"
+

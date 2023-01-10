@@ -1,0 +1,1 @@
+# Netlify Email Integrations example
