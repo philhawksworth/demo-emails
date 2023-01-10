@@ -1,11 +1,13 @@
 import { sendEmail } from "@netlify/emails";
 
 exports.handler = async (event, context) => {
+
+
   await sendEmail({
     from: "phawksworth@gmail.com",
     to: "phil@netlify.com",
-    subject: "Testing the email integration",
-    template: "subscribed",
+    subject: "Demo the emil integrations",
+    template: "subscribe",
     parameters: {
       name: "Phil"
     },
@@ -13,8 +15,7 @@ exports.handler = async (event, context) => {
 
   return {
     statusCode: 200,
-    body: "Email triggered"
+    body: "Hello, World"
   };
 };
-
 
