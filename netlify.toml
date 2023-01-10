@@ -1,8 +1,10 @@
 [build] 
   publish = "www"
-  command = "echo No build for this little demo site"
+  command = ""
 
 [dev] 
   publish = "www"
-  command = "echo No build for this little demo site"
+  command = ""
 
+[functions]
+  node_bundler = "esbuild"
